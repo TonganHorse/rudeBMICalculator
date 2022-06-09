@@ -1,0 +1,24 @@
+{
+  "name": "bmicalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonganHorse/rudeBMICalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonganHorse/rudeBMICalculator/issues"
+  },
+  "homepage": "https://github.com/TonganHorse/rudeBMICalculator#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
