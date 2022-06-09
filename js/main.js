@@ -21,7 +21,10 @@ function showBMI () {
     
      const button = document.createElement('button')
      button.classList.add('btn')
-     button.innerText = 'Clear'
+     button.innerHTML = '<i class="fa-solid fa-circle-check"></i>'
+     button.style.border = 'none'
+     button.style.fontSize = '20px'
+     button.style.textAlign = 'center'
 
     if(BMI > 24.9 && BMI < 40) {
         display.innerHTML = "Your BMI is " + BMI + ", you fat back!" + '<img src="../img/bmi.jpeg">'
@@ -39,6 +42,7 @@ function showBMI () {
 }
 function deleteContent(e) {
     display.innerHTML = "";
-    e.target.remove()
+    e.target.parentNode.remove()
+    
 }
 
