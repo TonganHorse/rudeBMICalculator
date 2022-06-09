@@ -16,13 +16,15 @@ function calculateBMI () {
 function showBMI () {
 const display = document.getElementById('display-BMI')
      let BMI = Math.round(calculateBMI())
-    
-    if(BMI > 24.9) {
-        display.innerText = "your BMI is " + BMI + ", you fat back!"
+    console.log(BMI)
+    if(BMI > 24.9 && BMI < 40) {
+        display.innerText = "Your BMI is " + BMI + ", you fat back!"
     } else if(BMI < 18.5) {
-        display.innerText = "your BMI is " + BMI + ", hit the gym scrub!"
+        display.innerText = "Your BMI is " + BMI + ", hit the gym scrub!"
+    } else if(BMI >= 40){
+        display.innerText = "Your BMI is " + BMI + ", holy shit you're fat!"
     } else {
-        display.innerText = "your BMI is " + BMI + ", you're in range but you're still fat on the inside!"
+        display.innerText = "Your BMI is " + BMI + ", you're in range but you're still fat on the inside!"
     }
 }
 

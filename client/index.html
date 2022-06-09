@@ -8,15 +8,25 @@
     <title>BMI Calculator</title>
 </head>
 <body>
+<div class="card-wrapper">
+    <h1>Rude BMI Calculator</h1>
     <form id="characteristics">
-        <label>Weight<input name="person" type="number" id="weight" value="204"></label>
-        <label>Feet<input name="person" type="number" id="feet" value="5"></label>
-        <label>Inches<input name="person" type="number" id="inches" value="9"></label>
+        <div class="person-form-wrapper">
+            <div id="weight">
+                <h2>Please enter your weight in lbs</h2>
+                <input name="person" type="number" id="weight" placeholder="Lbs">
+            </div>
+            <div id="height">
+                <h2>Please enter your height</h2>
+                <input name="person" type="number" i" placeholder="Height: feet">
+                <input name="person" type="number" id="inches" placeholder="Height: inches">
+            </div>
+        </div>
     </form>
-    
 
-    <h1 id="display-BMI"></h1>
-    <button onclick="showBMI()">Get my BMI</button>
+    <p id="display-BMI"></p>
+    <button class="btn" id="submit-btn" onclick="showBMI()">Get my BMI</button>
+</div>
 
     
 

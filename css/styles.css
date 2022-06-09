@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    font-family: arial, sans-serif;
+}
+
+.person-form-wrapper{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#weight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#height{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-wrapper{
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    width: 50%;
+    height: 25%;
+    
+}
+input{
+    background: transparent;
+    border: 1px solid #fff;
+    color: whitesmoke;
+    margin: 5px 0px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+input:focus{
+    border: none;
+}
+
+.btn{
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#display-BMI{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+}
